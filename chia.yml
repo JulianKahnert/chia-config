@@ -1,0 +1,9 @@
+skippedProviders:
+     # - ReadmeCheck
+     # - LicenseCheck
+     # - SwiftLintCheck
+
+projectRootAppendix: Null
+
+swiftLintConfig:
+     lintingRulesPath: https://raw.githubusercontent.com/JulianKahnert/chia-config/master/.swiftlint.yml
