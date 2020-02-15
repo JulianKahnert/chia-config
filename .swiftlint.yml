@@ -4,9 +4,12 @@ disabled_rules: # rule identifiers to exclude from running
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - PDFArchiver/External
   - Pods/
+  - .build
+  - .swiftpm
 identifier_name:
   excluded: # excluded via string array
     - id
+    - go
 opt_in_rules:
   - attributes
   - closure_end_indentation
@@ -40,3 +43,10 @@ opt_in_rules:
   - unavailable_function
   - unused_import
   - yoda_condition
+
+nesting:
+  type_level:
+    warning: 3
+    error: 5
+
+function_parameter_count: 10

@@ -1,13 +1,60 @@
 skippedProviders:
-    # - ReadmeCheck
-    # - LicenseCheck
-    # - SwiftLintCheck
+  # - ReadmeCheck
+  # - LicenseCheck
+  # - SwiftLintCheck
 
 projectRootAppendix: Null
 
 swiftLintConfig:
-    lintingRulesPath: https://raw.githubusercontent.com/JulianKahnert/chia-config/master/.swiftlint.yml
+  lintingRulesPath: https://raw.githubusercontent.com/JulianKahnert/chia-config/master/.swiftlint.yml
 
 spellCheckConfig:
-    ignoredPaths:
-        - vendor
+  # onlyLatestFiles: False
+  ignoredPaths:
+    - vendor
+    - .build
+    - .swiftpm
+  ignoredWords:
+    - swiftlint
+    - chia.yml
+    - yml
+    - yonaskolb
+    - CheckProvider
+    - lintingRulesPath
+    - raw.githubusercontent.com
+    - swiftlint:disable
+    - stackoverflow.com
+    - www.raywenderlich.com
+    - SwiftyStoreKit
+    - testflight
+    - github.com
+    - cyclomatic_complexity
+    - initialized
+    - AppIcon.svg
+    - linkmaker.itunes.apple.com
+    - searchterm
+    - pdf-archiver
+    - pdf-archiver.io
+    - discord.pdf-archiver.io
+    - octocat
+    - ct
+    - mt
+    - github
+    - Config.xcconfig
+    - xcconfig
+    - storekit
+    - wwdc2019
+    - UIColor.swift
+    - Initialization
+    - serializing
+    - localized
+    - Sentry.io
+    - skstorereviewcontroller
+    - CONTRIBUTING.md
+    - descriptionword
+    - searchword
+    - faq
+    - _tagname
+    - itunes_store
+    - appstore-lrg.svg
+    - chrisaljoudi
