@@ -2,6 +2,7 @@ disabled_rules: # rule identifiers to exclude from running
   - line_length
   - large_tuple
   - file_length
+  - switch_case_alignment
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - PDFArchiver/External
   - Pods/
