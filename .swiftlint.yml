@@ -15,6 +15,9 @@ identifier_name:
   excluded: # excluded via string array
     - id
     - go
+    - at
+    - of
+    - to
 opt_in_rules:
   - attributes
   - closure_end_indentation
