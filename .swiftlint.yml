@@ -20,6 +20,9 @@ identifier_name:
     - at
     - of
     - to
+    - x
+    - y
+    - z
 opt_in_rules:
   - attributes
   - closure_end_indentation
